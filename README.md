@@ -11,8 +11,8 @@ It was first based on dewshr's NCBI-GenBank-file-parser : https://github.com/dew
 
 But because I had to parse a large number of files, I changed the approach into a step by step way in order to have intermediate result files decreasing in size at each step.
 I choosed a line by line scanning way of the files that permit to gain in execution time.
-The only import needed is the "glob" module that permit to list the files name in a folder.
-In addition different modules are needed if you choose to use the same way to measure the execution time but it is not necessary.
+The only module to import is the "glob" module that permit to list the files name in a folder.
+In addition different modules are needed if you choose to use the same way of measuring the execution time (first 30 lines of each script) but it is not necessary.
 
 
 ### Description of each script
@@ -72,9 +72,9 @@ This work was funded by the Biodivmex program : http://biodivmex.imbe.fr/
 
 
 ### License
-	NCBI-GenBank-metadata-extractor is a program mede to extract some metadata
+	NCBI-GenBank-metadata-extractor is a program made to extract some metadata
 	from NCBI GenBank files in plain text format.
-  Copyright (C) 2019  Jan Perret
+  Copyright (C) 2019 Jan Perret
 
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
